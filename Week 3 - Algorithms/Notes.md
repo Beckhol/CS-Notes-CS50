@@ -4,7 +4,7 @@ For an computer, it is just like a black box. It takes an input, processes it an
 
 <img src="image-20220714205215848.png" alt="image-20220714205215848" style="zoom:50%;" />
 
-## Searching
+## 1.Searching
 
 It takes an array of certain type of data, search for the target one and return a boolean whether is true(found) or false(not found)
 
@@ -14,7 +14,7 @@ How to tell whether or not the algorithm is efficient?
 
 Then answer is the **running times.**
 
-### Running times Notations
+### 1.1 Running times Notations
 
 **First Notation is the $O(big-O)$** which is the upper bound of an algorithm(at most)
 
@@ -30,7 +30,7 @@ Basically, they are also used in Big-Omega and Big-Theta.
 
 **Last Notation is the $\Theta(Big-Theta)$** when the lower bound is equal to the upper bound.
 
-### Linear Search
+### 1.2 Linear Search
 
 which is best for unsorted array. It searches for the target one by one.
 
@@ -44,7 +44,7 @@ Return false
 
 Running times for it should be : worst case is O(n) and best case is $\Omega(1)$ 
 
-### Binary Search
+### 1.3 Binary Search
 
 which is best for sorted array. It starts from the half of the array.
 
@@ -62,13 +62,13 @@ Else if number > doors[middle]
 
 Running times for it should be：worse case is $O(logn)$ and best case is $\Omega(1)$
 
-## Sorting
+## 2.Sorting
 
 Turn unsorted array to sorted array.
 
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220714211737026.png" alt="image-20220714211737026" style="zoom:50%;" />
+<img src="image-20220714211737026.png" alt="image-20220714211737026" style="zoom:50%;" />
 
-### Selection Sort
+### 2.1 Selection Sort
 
 Find the smallest number in array, place it at the first position and loop.
 
@@ -85,7 +85,7 @@ Running times for it:
 - best case: $\Omega(n^2)$, cause whether or not, it will go through the array once and once more.
 - So we better use $\Theta(n^2) $ to describe the running time of it.
 
-### Bubble Sort
+### 2.2 Bubble Sort
 
 Swap when the compared numbers are not in the correct position.
 
@@ -104,11 +104,11 @@ Running times for it:
 - worse case: $(n-1)^2 = n^2-2n=1 = O(n^2)$
 - best case: $\Omega(n)$
 
-### Recursion
+### 2.3 Recursion
 
 A function which it calls itself
 
-### Merge Sort
+### 2.4 Merge Sort
 
 Sort left half of the numbers, sort right half of the numbers then merge sorted numbers
 
@@ -128,7 +128,7 @@ Running times for it:
 - best case: $\Omega(nlogn)$
 - So we better use $\Theta(nlogn)$  
 
-### Difference among three sorts
+### 2.5 Difference among three sorts
 
 Bubble sort is the best in ordered sequences, worst in reverse sequences.
 
