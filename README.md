@@ -4,4 +4,15 @@ Notes from the course CS50 from Harvard
 如果你已经有了很好的CS基础，可以休闲时间刷，也可以选择自己感兴趣的部分刷课。  
 由于我有一定的CS基础，我选择了后一种，所以笔记的部分不会很完备。 
 
-## Week 3 Algorithms
+## Syllabus  
+Week 0 Scratch  
+Week 1 C  
+Week 2 Arrays  
+Week 3 Algorithms  
+Week 4 Memory  
+Week 5 Data Structure  
+Week 6 Python  
+Week 7 SQL  
+Week 8 HTML,CSS,JavaScript  
+Week 9 Flask  
+Week 10 Emoji  
