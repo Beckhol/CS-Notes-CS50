@@ -83,7 +83,7 @@ Running times for it:
 
 - worse case: n + n-1 + n-2 +...+ 1 = $\frac{n^2}{2}+\frac{n}{2} = O(n^2)$
 - best case: $\Omega(n^2)$, cause whether or not, it will go through the array once and once more.
-- So we better use $\Theta(n^2) $ to describe the running time of it.
+- So we better use $\Theta(n^2)$ to describe the running time of it.
 
 ### 2.2 Bubble Sort
 
