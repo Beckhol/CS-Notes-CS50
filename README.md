@@ -8,7 +8,7 @@ Notes from the course CS50 from Harvard
 Week 0 Scratch  
 Week 1 C  
 Week 2 Arrays  
-Week 3 Algorithms  
+Week 3 [Algorithms](https://github.com/Beckhol/CS-Notes-CS50/blob/main/Week%203%20-%20Algorithms/Notes.md)  
 Week 4 Memory  
 Week 5 Data Structure  
 Week 6 Python  
