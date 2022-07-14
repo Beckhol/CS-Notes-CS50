@@ -2,13 +2,13 @@
 
 For an computer, it just like a black box. It takes an input, processes it and return an output.
 
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220714205215848.png" alt="image-20220714205215848" style="zoom:50%;" />
+<img src="image-20220714205215848.png" alt="image-20220714205215848" style="zoom:50%;" />
 
 ## Searching
 
 It takes an array of certain type of data, search for the target one and return a boolean whether is true(found) or false(not found)
 
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220714205517016.png" alt="image-20220714205517016" style="zoom:50%;" />
+<img src="image-20220714205517016.png" alt="image-20220714205517016" style="zoom:50%;" />
 
 How to tell whether or not the algorithm is efficient?
 
@@ -18,13 +18,13 @@ Then answer is the **running times.**
 
 **First Notation is the $O(big-O)$** which is the upper bound of an algorithm(at most)
 
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220714210026644.png" alt="image-20220714210026644" style="zoom:50%;" />
+<img src="image-20220714210026644.png" alt="image-20220714210026644" style="zoom:50%;" />
 
 There are some common numbers in Big-O(which is in decreasing order of running time):
 
 Basically, they are also used in Big-Omega and Big-Theta.
 
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220714210124651.png" alt="image-20220714210124651" style="zoom:50%;" />
+<img src="image-20220714210124651.png" alt="image-20220714210124651" style="zoom:50%;" />
 
 **Second Notation is the $\Omega(Big-Omega)$** which is the lower bound of an algorithm(best case)
 
