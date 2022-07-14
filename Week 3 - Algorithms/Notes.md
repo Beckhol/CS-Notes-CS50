@@ -1,6 +1,6 @@
 # Notes
 
-For an computer, it just like a black box. It takes an input, processes it and return an output.
+For an computer, it is just like a black box. It takes an input, processes it and return an output.
 
 <img src="image-20220714205215848.png" alt="image-20220714205215848" style="zoom:50%;" />
 
