@@ -2,11 +2,14 @@
 
 Each type of data can be fitted into one data structure.
 
-## Array
+## Outline
+
+## 1.Array
 <div align="center">
 <img src="image-20220715153619350.png" alt="image-20220715153619350" style="zoom:67%;" />
 </div>
 If you want to insert a '4' here, you need to copy the old array to an new memory and add '4', cause there maybe no place for 4 to be inserted after '3'. We **lost run time** here.
+
 <div align="center">
 <img src="image-20220715153716345.png" alt="image-20220715153716345" style="zoom:50%;" />
 </div>
@@ -20,7 +23,7 @@ For the best case:
 - Insert, $\Omega(1)$
 - Search, $\Omega(1)$
 
-## Linked List
+## 2.Linked List
 <div align="center">
 <img src="image-20220715154124518.png" alt="image-20220715154124518" style="zoom:50%;" />
 </div>
@@ -51,7 +54,7 @@ Best case:
 - Insert : $\Omega(1)$
 - Search : $\Omega (1)$
 
-## Trees(Binary Search Trees)
+## 3.Trees(Binary Search Trees)
 <div align="center">
 <img src="image-20220715154903890.png" alt="image-20220715154903890" style="zoom:67%;" />
 </div>
@@ -103,7 +106,7 @@ For best case:
 - Search: $\Omega(1)$
 - Insert: $\Omega (1)$
 
-## Hash Tables
+## 4.Hash Tables
 
 It is a data structure which contains **keys with values.**
 <div align="center">
@@ -138,7 +141,7 @@ Best case:
 - Search : $\Omega (1)$
 - Insert : $\Omega (1)$
 
-## Tries
+## 5.Tries
 <div align="center">
 <img src="image-20220715155909434.png" alt="image-20220715155909434" style="zoom:50%;" />
 </div>
@@ -155,7 +158,7 @@ For the worst case:
 
 - Insert, Search : $O(1)$
 
-## Abstract Data Structure
+## 6.Abstract Data Structure
 
 Queues and Stacks
 
