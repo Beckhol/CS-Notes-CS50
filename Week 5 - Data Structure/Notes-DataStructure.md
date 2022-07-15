@@ -3,13 +3,13 @@
 Each type of data can be fitted into one data structure.
 
 ## Array
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715153619350.png" alt="image-20220715153619350" style="zoom:67%;" />
-
+<div align="center">
+<img src="image-20220715153619350.png" alt="image-20220715153619350" style="zoom:67%;" />
+</div>
 If you want to insert a '4' here, you need to copy the old array to an new memory and add '4', cause there maybe no place for 4 to be inserted after '3'. We **lost run time** here.
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715153716345.png" alt="image-20220715153716345" style="zoom:50%;" />
-
+<div align="center">
+<img src="image-20220715153716345.png" alt="image-20220715153716345" style="zoom:50%;" />
+</div>
 For the worst case:
 
 - Insert, $O(n)$
@@ -21,9 +21,9 @@ For the best case:
 - Search, $\Omega(1)$
 
 ## Linked List
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715154124518.png" alt="image-20220715154124518" style="zoom:50%;" />
-
+<div align="center">
+<img src="image-20220715154124518.png" alt="image-20220715154124518" style="zoom:50%;" />
+</div>
 It is a data structure which contains both a value and a pointer which points to the next number.
 
 It needs more space than the array.
@@ -52,11 +52,12 @@ Best case:
 - Search : $\Omega (1)$
 
 ## Trees(Binary Search Trees)
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715154903890.png" alt="image-20220715154903890" style="zoom:67%;" />
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715155027011.png" alt="image-20220715155027011" style="zoom:50%;" />
-
+<div align="center">
+<img src="image-20220715154903890.png" alt="image-20220715154903890" style="zoom:67%;" />
+</div>
+<div align="center">
+<img src="image-20220715155027011.png" alt="image-20220715155027011" style="zoom:50%;" />
+</div>
 We learnt the binary search before, which is quite similar.
 
 ```c
@@ -105,15 +106,17 @@ For best case:
 ## Hash Tables
 
 It is a data structure which contains **keys with values.**
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715155406237.png" alt="image-20220715155406237" style="zoom:50%;" />
+<div align="center">
+<img src="image-20220715155406237.png" alt="image-20220715155406237" style="zoom:50%;" />
+</div>
 
 It takes an input and trough a hash function then outputs the result
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715155517912.png" alt="image-20220715155517912" style="zoom:50%;" />
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715155529640.png" alt="image-20220715155529640" style="zoom:50%;" />
-
+<div align="center">
+<img src="image-20220715155517912.png" alt="image-20220715155517912" style="zoom:50%;" />
+</div>
+<div align="center">
+<img src="image-20220715155529640.png" alt="image-20220715155529640" style="zoom:50%;" />
+</div>
 ```c
 typedef struct node
 {
@@ -136,9 +139,9 @@ Best case:
 - Insert : $\Omega (1)$
 
 ## Tries
-
-<img src="/Users/beckhol/Library/Application Support/typora-user-images/image-20220715155909434.png" alt="image-20220715155909434" style="zoom:50%;" />
-
+<div align="center">
+<img src="image-20220715155909434.png" alt="image-20220715155909434" style="zoom:50%;" />
+</div>
 ```c
 typedef struct node
 {
