@@ -8,7 +8,8 @@ Each type of data can be fitted into one data structure.
 <div align="center">
 <img src="image-20220715153619350.png" alt="image-20220715153619350" style="zoom:67%;" />
 </div>
-If you want to insert a '4' here, you need to copy the old array to an new memory and add '4', cause there maybe no place for 4 to be inserted after '3'. We **lost run time** here.
+
+If you want to insert a '4' here, you need to copy the old array to an new memory and add '4', cause there maybe no place for 4 to be inserted after '3'. We **lost run time here.**
 
 <div align="center">
 <img src="image-20220715153716345.png" alt="image-20220715153716345" style="zoom:50%;" />
