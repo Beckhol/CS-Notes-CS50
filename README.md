@@ -10,8 +10,8 @@ Week 1 C
 Week 2 Arrays  
 Week 3 [Algorithms](https://github.com/Beckhol/CS-Notes-CS50/blob/main/Week%203%20-%20Algorithms/Notes.md)  
 Week 4 Memory  
-Week 5 Data Structure  
-Week 6 Python  
+Week 5 [Data Structure](https://github.com/Beckhol/CS-Notes-CS50/blob/main/Week%205%20-%20Data%20Structure/Notes-DataStructure.md)  
+Week 6 Python
 Week 7 SQL  
 Week 8 HTML,CSS,JavaScript  
 Week 9 Flask  
